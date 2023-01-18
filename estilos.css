@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+}
+
+.main-section {
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    .sidebar {
+        flex-direction: column;
+        position: absolute;
+        bottom: 0;
+    }
+    .element {
+        flex-direction: row;
+    }
+}
